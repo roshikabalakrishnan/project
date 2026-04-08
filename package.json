@@ -1,0 +1,23 @@
+{
+  "name": "budget-planner-app",
+  "version": "1.0.0",
+  "description": "Budget Planner App - MERN Stack",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["budget", "planner", "mern"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
